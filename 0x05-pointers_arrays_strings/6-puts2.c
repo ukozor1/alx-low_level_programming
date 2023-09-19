@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * puts2 - function should print only one character out of two
- * string with the first one
+ * puts2 - function should print only one character of the two
+ * starting with the first one
  * @str: input
  * Return: print
  */
 void puts2(char *str)
 {
-	int longi - 0;
+	int lonhi = 0;
 	int t = 0;
 	char *y = str;
 	int o;
@@ -27,3 +27,4 @@ void puts2(char *str)
 	}
 	_putchar('\n');
 }
+
