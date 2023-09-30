@@ -1,17 +1,15 @@
 #include "main.h"
 
 /**
-  * print_alphabet - this is the function of the task
-  * Return: return 0
-  */
+ * print_alphabet - print all alphabet in lowercase
+ */
 
 void print_alphabet(void)
 {
+	char letter;
 
-char c;
-for (c = 'a'; c <= 'z'; c++)
-{
-_putchar(c);
-}
-_putchar('\n')
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+
+	_putchar('\n');
 }
